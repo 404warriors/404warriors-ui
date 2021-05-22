@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "404warriors3089218e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

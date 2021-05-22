@@ -10,6 +10,12 @@
       "StackName": "amplify-404warriors-staging-235532",
       "StackId": "arn:aws:cloudformation:us-east-1:642505215841:stack/amplify-404warriors-staging-235532/dd432380-b9c6-11eb-bf8c-12498e67507f",
       "AmplifyAppId": "d2tfqi100zk5uf"
+    },
+    "categories": {
+      "auth": {
+        "404warriors07bbd0bf": {},
+        "404warriors3089218e": {}
+      }
     }
   }
 }
