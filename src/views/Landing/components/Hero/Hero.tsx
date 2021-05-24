@@ -4,7 +4,7 @@ import { Button, Typography } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { HeroShaped } from 'components/organisms';
-import image from "./developers-huge.jpg"
+import image from "./developers.jpg"
 const useStyles = makeStyles(() => ({
   image: {
     objectFit: 'cover',
