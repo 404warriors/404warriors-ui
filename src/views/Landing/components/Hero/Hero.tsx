@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Button, Typography } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { HeroShaped } from 'components/organisms';
@@ -32,11 +32,6 @@ const Hero = ({ className, ...rest }: ViewComponentProps): JSX.Element => {
                 </span>
               }
               subtitle="Our mission is to spread education that is easy accessible and everyone can learn."
-              ctaGroup={[
-                <Button variant="contained" color="primary" size="large">
-                  Start now
-                </Button>,
-              ]}
               align="left"
               titleVariant="h3"
             />
