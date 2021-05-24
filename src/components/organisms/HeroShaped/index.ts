@@ -1,0 +1,1 @@
+export { HeroShaped } from './HeroShaped';
