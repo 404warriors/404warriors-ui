@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/register",
+      "lambdaFunction": "registerFunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/register"
+    }
+  ],
+  "resourceName": "registerApi",
+  "apiName": "registerApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "registerFunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-404warriors-staging-235532-authRole",
+    "unAuthRoleName": "amplify-404warriors-staging-235532-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "registerFunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
