@@ -15,6 +15,12 @@
       "auth": {
         "404warriors07bbd0bf": {},
         "404warriors3089218e": {}
+      },
+      "function": {
+        "registerFunction": {
+          "deploymentBucketName": "amplify-404warriors-staging-235532-deployment",
+          "s3Key": "amplify-builds/registerFunction-2b6d546b4c48756d304c-build.zip"
+        }
       }
     }
   }
