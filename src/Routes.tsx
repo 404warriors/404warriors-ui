@@ -1,11 +1,9 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import WithLayout from 'WithLayout';
-import { Main as MainLayout } from './layouts';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import WithLayout from "WithLayout";
+import { Main as MainLayout } from "./layouts";
 
-import {
-  LandingView
-} from './views';
+import { PreRegister, LandingView } from "./views";
 
 const Routes = (): JSX.Element => {
   return (
@@ -13,10 +11,21 @@ const Routes = (): JSX.Element => {
       <Route
         exact
         path="/"
-        render={matchProps => (
+        render={(matchProps) => (
           <WithLayout
             {...matchProps}
             component={LandingView}
+            layout={MainLayout}
+          />
+        )}
+      />
+      <Route
+        exact
+        path="/register"
+        render={(matchProps) => (
+          <WithLayout
+            {...matchProps}
+            component={PreRegister}
             layout={MainLayout}
           />
         )}
