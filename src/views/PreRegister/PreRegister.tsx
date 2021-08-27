@@ -16,14 +16,17 @@ const PreRegister = ({
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Pre registration open"
-        subtitle="We are currently finalizing the dates and location of the first bootcamp.  By registering, you will be notified of any new details.  You will also secure yourself a seat in the first bootcamp."
-        subtitleProps={{
-          variant: "body1",
-          color: "textPrimary",
-        }}
+        title="Training"
+        subtitle="Your path to becoming a software developer starts here. First submit the
+        following form. Then you will be contacted and assigned a mentor. Your
+        mentor will be your first point of contact. They will also help you
+        determine the best path to gaining a baseline proficiency as a
+        software developer. Once you have proven to your mentor that you are
+        proficient you will be able gain experience by
+        working for 404 Warriors as a entry level developer. You and your
+        mentor will be assigned to a real project from a paying client and you
+        will also be compensated for your time.."
         data-aos="fade-up"
-        align={isMd ? "center" : "left"}
       />
       <Form />
     </div>
